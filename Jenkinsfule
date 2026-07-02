@@ -2,9 +2,9 @@ pipeline {
     agent any
 
     stages {
-        stage('Hello') {
+        stage('Hellow') {
             steps {
-                echo 'Hello from GitHub hook trigger'
+                echo 'Hellow from GitHub hook trigger'
             }
         }
         stage('Build') {
